@@ -1,74 +1,76 @@
-body {
+* {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.portfolio-container {
-  text-align: center;
-  padding: 30px 20px;
-  position: relative;
-  overflow: hidden;
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
 }
 
 header {
-  color: #5f4bb6;
+  background-color: #007bff;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
 }
 
-.header-text {
-  text-align: left;
-  margin-bottom: 20px;
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.header-text .icon {
-  width: 12px;
-  height: 12px;
-  background-color: #5f4bb6;
-  display: inline-block;
-  margin-right: 10px;
+section h2 {
+  color: #007bff;
+  margin-bottom: 10px;
 }
 
-.header-text p {
-  font-size: 14px;
-  margin: 0;
-  color: #333;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.header-text hr {
-  margin-top: 5px;
+ul li {
+  margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
   border: none;
-  border-top: 2px solid #000;
-  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: bold;
-  color: #5f4bb6;
-  margin: 0;
+form button:hover {
+  background: #0056b3;
 }
 
-h2 {
-  font-size: 22px;
-  font-weight: bold;
-  color: #333;
-  margin: 10px 0;
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
 }
-
-.photo-section img {
-  width: 180px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.design-elements {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60%;
-  height: 100%;
-  background: linear-gradient(135deg, #cfc2f2 50%, #5f4bb6 50%);
-  clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 40% 100%);
-  z-index: -1;
-}
-
