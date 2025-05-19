@@ -1,11 +1,74 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-    margin-top: 50px;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #ffffff;
+}
+
+.portfolio-container {
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  color: #5f4bb6;
+}
+
+.header-text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.header-text .icon {
+  width: 12px;
+  height: 12px;
+  background-color: #5f4bb6;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header-text p {
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+}
+
+.header-text hr {
+  margin-top: 5px;
+  border: none;
+  border-top: 2px solid #000;
+  width: 100px;
 }
 
 h1 {
-    color: #333;
+  font-size: 48px;
+  font-weight: bold;
+  color: #5f4bb6;
+  margin: 0;
 }
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.photo-section img {
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.design-elements {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(135deg, #cfc2f2 50%, #5f4bb6 50%);
+  clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 40% 100%);
+  z-index: -1;
+}
+
